@@ -10,7 +10,7 @@ import requests
 from requests.auth import AuthBase
 
 CACHE_PATH='.'
-QTEST_API_VERSION='v3'
+QTEST_API_VERSION='v4'
 
 class qTestAuth(AuthBase):
     """
